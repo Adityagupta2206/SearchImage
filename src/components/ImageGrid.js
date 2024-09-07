@@ -7,7 +7,7 @@ const ImageGrid = ({ images, fetchMoreImages }) => {
       dataLength={images.length}
       next={fetchMoreImages}
       hasMore={true}
-      loader={<h4>Loading...</h4>}
+      loader={<h4></h4>}
       className="image-grid"
     >
       {images.map((image) => (
